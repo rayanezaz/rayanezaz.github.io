@@ -224,3 +224,30 @@ input[type="submit"] {
 #contact-form textarea {
   margin-bottom: 10px;
 }
+
+/* Specificity */
+
+/* Element selector: specificity = 1 */
+p {
+  color: #333;
+}
+
+/* Class selector: specificity = 10 */
+.entry-description {
+  color: #555;
+}
+
+/* ID selector: specificity = 100 */
+#contact-form {
+  background-color: #f5f5f5;
+}
+
+/* More specific selector: specificity = 11 */
+.resume p {
+  font-size: 16px;
+}
+
+/* Even more specific selector: specificity = 21 */
+.resume .entry-description {
+  color: #222;
+}

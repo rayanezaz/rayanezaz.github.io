@@ -300,3 +300,68 @@ body {
   color: rgb(31, 78, 121);
 }
 
+body {
+  margin: 0;
+}
+
+.navbar {
+  padding: 20px 30px;
+  border-bottom: 2px solid #1f4e79;
+}
+
+main {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.page-title {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1f4e79;
+}
+
+.about {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+}
+
+.project {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+}
+
+.resume {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.entry {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+#contact-form {
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px solid #1f4e79;
+}

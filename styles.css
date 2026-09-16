@@ -186,3 +186,41 @@ textarea:focus {
   border: 2px solid #555;
   outline: none;
 }
+
+/* Grouping selectors */
+h1,
+h2,
+h3 {
+  font-family: Arial, sans-serif;
+}
+
+a,
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Nesting selectors */
+.navbar a {
+  text-decoration: none;
+}
+
+.about p {
+  margin-bottom: 15px;
+}
+
+.resume .entry {
+  margin-bottom: 25px;
+}
+
+.project .project-details {
+  padding: 10px;
+}
+
+#contact-form input {
+  margin-bottom: 10px;
+}
+
+#contact-form textarea {
+  margin-bottom: 10px;
+}

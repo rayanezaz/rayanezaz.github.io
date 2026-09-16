@@ -110,3 +110,45 @@ main {
 #contact-form textarea {
   height: 150px;
 }
+
+/* HTML selectors */
+p {
+  line-height: 1.6;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Class selectors */
+.page-title {
+  font-size: 32px;
+}
+
+.section-title {
+  color: #333;
+}
+
+/* ID selectors */
+#contact-form {
+  padding: 20px;
+}
+
+/* Attribute selectors */
+input[required] {
+  border: 1px solid #555;
+}
+
+input[type="text"] {
+  padding: 10px;
+}
+
+/* Child selector */
+.nav-list > li {
+  margin: 0;
+}
+
+/* Adjacent selector */
+h1 + p {
+  margin-top: 10px;
+}

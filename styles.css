@@ -365,3 +365,60 @@ main {
   padding: 20px;
   border-top: 2px solid #1f4e79;
 }
+
+body {
+  margin: 0 20px;
+}
+
+.navbar {
+  margin: 0 0 20px;
+  padding: 20px 30px;
+  border-bottom: 2px solid #1f4e79;
+}
+
+main {
+  margin: 30px auto;
+  padding: 20px 30px;
+}
+
+.page-title {
+  margin: 0 0 30px;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #1f4e79;
+}
+
+.about {
+  margin: 20px 0 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.project {
+  margin: 20px 0 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.section {
+  margin: 0 0 40px;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.entry {
+  margin: 0 0 30px;
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+}
+
+#contact-form {
+  margin: 30px auto;
+  padding: 25px 30px;
+  border: 1px solid #ccc;
+}
+
+.footer {
+  margin: 40px 0 0;
+  padding: 20px 30px;
+  border-top: 2px solid #1f4e79;
+}

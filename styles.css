@@ -251,3 +251,52 @@ p {
 .resume .entry-description {
   color: #222;
 }
+
+body {
+  background-color: #f5f5f5;
+  color: #222;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.page-title {
+  color: #1f4e79;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-list a {
+  color: #1f4e79;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.entry-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.entry-info {
+  font-style: italic;
+}
+
+.project-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.footer {
+  color: #666;
+  text-align: center;
+}
+
+.section-title {
+  color: rgb(31, 78, 121);
+}
+

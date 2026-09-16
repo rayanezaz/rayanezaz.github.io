@@ -422,3 +422,54 @@ main {
   padding: 20px 30px;
   border-top: 2px solid #1f4e79;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-image {
+  display: block;
+}
+
+.about-text {
+  display: block;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.project-details {
+  display: block;
+}
+
+.skill-list,
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-list li,
+.course-list li {
+  display: block;
+}
+
+.footer {
+  display: block;
+}
